@@ -1,7 +1,7 @@
-name: "mkdocs"
+name: mkdocs
 description: "MkDocs add-on"
-version: "1.0.0"
-slug: "mkdocs"
+version: 1.0.3
+slug: mkdocs
 init: false
 arch:
   - aarch64
@@ -16,5 +16,5 @@ ingress_stream: true
 panel_icon: mdi:book-open-variant-outline
 panel_title: MkDocs
 ports:
-  8000/tcp: not needed for ingress
+  8000/tcp: #Not needed for ingress
 webui: http://[HOST]:[PORT:8000]

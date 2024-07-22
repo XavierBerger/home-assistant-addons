@@ -4,7 +4,10 @@
 # Home Assistant Community Add-on: MkDocs
 # Runs the MkDocs
 # ==============================================================================
-echo "Starting MkDocs Server"
+echo -n "Starting MkDocs Server at "
+date
+echo
 
-activate
+. /opt/venv/bin/activate 
+mkdocs new .
 mkdocs serve -a 0.0.0.0:8000
