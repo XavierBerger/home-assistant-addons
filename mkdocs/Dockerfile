@@ -16,7 +16,4 @@ RUN . /opt/venv/bin/activate && pip3 install --no-cache-dir -r requirements.txt
 # So let's set it to our add-on persistent data directory.
 WORKDIR /data
 
-COPY run.sh /
-RUN chmod a+x /run.sh
-
-CMD ["/run.sh"]
+COPY rootfs /

@@ -1,6 +1,6 @@
 name: mkdocs
 description: "MkDocs add-on"
-version: 1.0.3
+version: 1.0.5
 slug: mkdocs
 init: false
 arch:
@@ -18,3 +18,9 @@ panel_title: MkDocs
 ports:
   8000/tcp: #Not needed for ingress
 webui: http://[HOST]:[PORT:8000]
+map:
+  - addon_config:rw
+  - homeassistant_config:rw
+  - media:rw
+  - share:rw
+  - ssl

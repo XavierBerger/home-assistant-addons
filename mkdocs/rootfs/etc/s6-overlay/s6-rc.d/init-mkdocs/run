@@ -1,0 +1,13 @@
+#!/command/with-contenv bashio
+# shellcheck shell=bash
+# ==============================================================================
+# Home Assistant Community Add-on: MkDocs
+# Configures MkDocs
+# ==============================================================================
+
+# Creates initial MkDocs configuration in case it is non-existing
+if ! bashio::fs.file_exists '/config/mkdocs.yml'; then
+    cp -R /root/mkdocs/* /config/ \
+        || bashio::exit.nok 'Failed to create initial mkdocs configuration'
+fi
+
