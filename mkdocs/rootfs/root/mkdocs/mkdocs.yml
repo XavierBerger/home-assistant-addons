@@ -1,1 +1,30 @@
 site_name: HomeAssistant documentation
+use_directory_urls: False
+theme:
+  name: material
+  features:
+    - header.autohide
+  include_search_page: false
+  search_index_only: true
+extra_css:
+  - assets/stylesheet.css
+nav:
+  - index.md
+  - Documentation:
+      - documentation/mkdocs.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - toc:
+      permalink: "#"
+  - plantuml_markdown:
+      server: "http://www.plantuml.com/plantuml/"
+plugins:
+  - macros
+  - search

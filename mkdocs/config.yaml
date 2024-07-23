@@ -1,6 +1,6 @@
 name: mkdocs
 description: "MkDocs add-on"
-version: 1.0.5
+version: 1.0.9
 slug: mkdocs
 init: false
 arch:
@@ -11,12 +11,13 @@ arch:
   - i386
 startup: services
 ingress: true
-ingress_port: 8000
+ingress_port: 9000
 ingress_stream: true
 panel_icon: mdi:book-open-variant-outline
 panel_title: MkDocs
 ports:
-  8000/tcp: #Not needed for ingress
+  9000/tcp: # Not needed for ingress
+  8000/tcp: 8000
 webui: http://[HOST]:[PORT:8000]
 map:
   - addon_config:rw

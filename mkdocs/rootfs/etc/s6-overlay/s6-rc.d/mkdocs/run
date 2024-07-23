@@ -7,4 +7,7 @@
 echo "Starting MkDocs Server"
 
 . /opt/venv/bin/activate 
-mkdocs serve -a 0.0.0.0:8000 -f /config/mkdocs.yml
+mkdocs serve  -a 0.0.0.0:8000 -f /config/mkdocs.yml &
+sleep 1
+cd /tmp/mkdocs_*
+python -m http.server 9000
