@@ -1,7 +1,10 @@
 site_name: HomeAssistant documentation
 use_directory_urls: False
+repo_url: http://homeassistant.local:8000
+repo_name: View updates in realtime
 theme:
   name: material
+  logo: assets/mkdocs_icon.png
   features:
     - header.autohide
   include_search_page: false

@@ -1,0 +1,32 @@
+.md-grid {
+  max-width: 100%;
+}
+
+.md-content {
+  margin-bottom: 30px;
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.md-typeset {
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.md-typeset .admonition {
+  font-size: 0.7rem;
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  border-right: 0.05rem solid var(--md-typeset-table-color);
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  padding: 0.5em 1.25em;
+}

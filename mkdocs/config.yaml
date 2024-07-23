@@ -1,6 +1,6 @@
 name: mkdocs
-description: "MkDocs add-on"
-version: 1.0.9
+description: "MkDocs add-on - Create doc Web site in markdown"
+version: 0.0.1
 slug: mkdocs
 init: false
 arch:
