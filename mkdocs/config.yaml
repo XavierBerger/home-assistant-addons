@@ -1,8 +1,8 @@
 name: mkdocs
-description: "Create documentation web site in markdown"
 version: "0.0.1"
 image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
 slug: mkdocs
+description: "Project documentation with Markdown."
 init: false
 arch:
   - aarch64
