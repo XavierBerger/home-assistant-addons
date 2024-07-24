@@ -39,4 +39,4 @@ The licence of the repository is inherited by the plugins, if not stated differe
 [licence-badge]: https://img.shields.io/badge/license-MIT-green
 [mkdocs-url]: https://www.mkdocs.org
 [repository-badge]: https://img.shields.io/badge/Add_addon_repository_to_my-Home%20Assistant-41BDF5?logo=home-assistant
-[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FXavierBerger%2Fhassio-addons
+[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FXavierBerger%2Fhome-assistant-addons
