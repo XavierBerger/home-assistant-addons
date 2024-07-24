@@ -19,7 +19,6 @@ panel_title: MkDocs
 ports:
   9000/tcp: # Not needed for ingress
   8000/tcp: 8000
-webui: http://[HOST]:[PORT:8000]
 map:
   - addon_config:rw
   - share:rw
