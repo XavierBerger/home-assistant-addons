@@ -1,6 +1,7 @@
 name: mkdocs
-description: "MkDocs add-on - Create doc Web site in markdown"
-version: 0.0.1
+description: "Create documentation web site in markdown"
+version: "0.0.1"
+image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
 slug: mkdocs
 init: false
 arch:
@@ -21,7 +22,4 @@ ports:
 webui: http://[HOST]:[PORT:8000]
 map:
   - addon_config:rw
-  - homeassistant_config:rw
-  - media:rw
   - share:rw
-  - ssl
