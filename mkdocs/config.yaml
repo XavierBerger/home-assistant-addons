@@ -1,5 +1,5 @@
 name: mkdocs
-version: "0.0.6"
+version: "0.0.7"
 image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
 slug: mkdocs
 description: "Project documentation with Markdown."
@@ -21,4 +21,3 @@ ports:
   8000/tcp: 8000
 map:
   - addon_config:rw
-  - share:rw

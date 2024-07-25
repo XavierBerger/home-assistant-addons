@@ -12,14 +12,12 @@ The source of the documentation presented by this addon is available in `/addon_
 
 To update your documentation, you should update the configuration file of mkdocs: `mkdocs.yml` and the [Markdown](https://www.markdownguide.org/tools/mkdocs/) files stored in the `docs` directory.
 
-Documentation is written in Markdown and is rendered as html with MkDocs, Material Design extention and plantuml.
+For further informations and guides see:
 
-For further informations and guide see:
-
-- [MkDocs User Guide](https://www.mkdocs.org/user-guide/writing-your-docs/) .
-- [Markdown guide](https://www.markdownguide.org/tools/mkdocs/)
-- [Material for MkDocs Reference](https://squidfunk.github.io/mkdocs-material/reference/)
-- [PlantUML web site](https://plantuml.com)
+- [MkDocs User Guide](https://www.mkdocs.org/user-guide/writing-your-docs/) : The heart of this addon.
+- [Markdown guide](https://www.markdownguide.org/tools/mkdocs/) : Details of markdown synthax.
+- [Material for MkDocs Reference](https://squidfunk.github.io/mkdocs-material/reference/) : Additionnal features provided by Material for MkDocs.
+- [PlantUML web site](https://plantuml.com) : A tool to create graphs.
 
 ## Real time update
 
