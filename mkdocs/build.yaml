@@ -10,5 +10,4 @@ labels:
   org.opencontainers.image.description: "Create documentation web site in markdown"
   org.opencontainers.image.source: "https://github.com/iXavierBerger/home-assistant-addons"
   org.opencontainers.image.licenses: "MIT"
-args:
-  TEMPIO_VERSION: "0.0.1"
+

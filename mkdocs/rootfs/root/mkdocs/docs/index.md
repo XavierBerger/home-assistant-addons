@@ -6,7 +6,7 @@
 
 This addons has been designed to help Home Assistant users to manage documentation for exemple to keep a trace of modification and configuration they bring to Home Assistant.
 
-## Update documentation
+## Write documentation
 
 The source of the documentation presented by this addon is available in `/addon_configs/18ac940c_mkdocs`.
 

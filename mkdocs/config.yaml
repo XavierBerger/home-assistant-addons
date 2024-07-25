@@ -1,5 +1,5 @@
 name: mkdocs
-version: "0.0.5"
+version: "0.0.6"
 image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
 slug: mkdocs
 description: "Project documentation with Markdown."
