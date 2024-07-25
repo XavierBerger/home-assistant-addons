@@ -2,7 +2,9 @@
 
 ![logo][logo-png]
 
-**[MkDocs][mkdocs-url]** is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
+[MkDocs](https://www.mkdocs.org) is a **fast**, **simple** and **downright gorgeous** static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
+
+This addons has been designed to help Home Assistant users to manage documentation for exemple to keep a trace of modification and configuration they bring to Home Assistant.
 
 ## Installation
 

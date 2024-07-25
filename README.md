@@ -2,7 +2,7 @@
 
 ![Licence][licence-badge]
 
-My repository with Add-ons for the [Home Assistant system](https://www.home-assistant.io/hassio/).
+My repository with Add-ons for the [Home Assistant](https://www.home-assistant.io/).
 
 ## Addons
 
@@ -12,7 +12,7 @@ Further informatione about the add-ons can be found in their folders.
 
 ## Experimental
 
-Those addons might not be stable at all. Use at your own risk!
+Even if officially published addons are tested and works on my Home Assistant Yellow, addons might not be stable at all. Use at your own risk!
 
 ## Installation
 
@@ -22,13 +22,13 @@ To install any of the add-ons offered in this repository, you must first add its
 
 or manually add the the following repository URL in the Home Assistant add-on store:
 
-`https://github.com/XavierBerger/hassio-addons`
+`https://github.com/XavierBerger/home-assistant-addons`
 
 Then search for any of the add-ons in our addon store (button below) to install them.
 
 [![Open your Home Assistant instance and show the Supervisor add-on store.][addon-store-badge]][addon-store-url]
 
-You can also install them over the buttons in the Readmes of the addon folders.
+You can also install them over the buttons in the README of the addon folders.
 
 ### Licence
 
