@@ -1,4 +1,4 @@
-# MkDocs addon for Home Assistant
+# MkDocs usage
 
 ![](images/logo.png)
 

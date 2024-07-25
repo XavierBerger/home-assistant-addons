@@ -13,8 +13,6 @@ extra_css:
   - assets/stylesheet.css
 nav:
   - index.md
-  - Documentation:
-      - documentation/mkdocs.md
 
 markdown_extensions:
   - admonition
