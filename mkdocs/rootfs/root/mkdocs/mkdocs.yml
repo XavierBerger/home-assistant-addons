@@ -13,7 +13,6 @@ extra_css:
   - assets/stylesheet.css
 nav:
   - index.md
-
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -22,10 +21,12 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tasklist
   - pymdownx.tilde
+  - attr_list
+  - md_in_html
   - toc:
       permalink: "#"
   - plantuml_markdown:
-      server: "http://www.plantuml.com/plantuml/"
+      server: "http://www.plantuml.com/plantuml"
 plugins:
   - macros
   - search
