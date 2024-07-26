@@ -1,4 +1,4 @@
-site_name: HomeAssistant documentation
+site_name: Home Assistant documentation
 use_directory_urls: False
 repo_url: http://homeassistant.local:8000
 repo_name: View updates in realtime
@@ -9,6 +9,8 @@ theme:
     - header.autohide
   include_search_page: false
   search_index_only: true
+  palette:
+    primary: light blue
 extra_css:
   - assets/stylesheet.css
 nav:
@@ -30,5 +32,4 @@ markdown_extensions:
   - plantuml_markdown:
       server: "http://www.plantuml.com/plantuml"
 plugins:
-  - macros
   - search

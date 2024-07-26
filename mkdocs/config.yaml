@@ -1,15 +1,13 @@
 name: mkdocs
-version: "0.0.14"
+version: "0.0.15"
 image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
+codenotary: "berger.xavier@gmail.com"
 slug: mkdocs
 description: "Project documentation with Markdown."
 init: false
 arch:
   - aarch64
   - amd64
-  # - armhf
-  # - armv7
-  # - i386
 startup: services
 ingress: true
 ingress_port: 9000

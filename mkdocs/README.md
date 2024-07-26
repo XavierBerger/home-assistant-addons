@@ -23,4 +23,4 @@
 [mkdocs-demo]: https://github.com/XavierBerger/home-assistant-addons/raw/main/mkdocs/images/demo.gif
 [mkdocs-url]: https://www.mkdocs.org
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
-[version]: https://img.shields.io/badge/version-0.0.14-blue.svg
+[version]: https://img.shields.io/badge/version-0.0.15-blue.svg
