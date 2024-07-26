@@ -12,7 +12,7 @@ theme:
 extra_css:
   - assets/stylesheet.css
 nav:
-  - index.md
+  - Home: index.md
   - Mkdocs Addon:
       - addons/mkdocs/FAQ.md
 markdown_extensions:

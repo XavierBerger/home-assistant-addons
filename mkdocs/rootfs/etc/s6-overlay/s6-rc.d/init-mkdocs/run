@@ -11,3 +11,5 @@ if ! bashio::fs.file_exists '/config/mkdocs.yml'; then
         || bashio::exit.nok 'Failed to create initial mkdocs configuration'
 fi
 
+cp -R /root/mkdocs/docs/addons/mkdocs/* /config/docs/addons/mkdocs/
+
