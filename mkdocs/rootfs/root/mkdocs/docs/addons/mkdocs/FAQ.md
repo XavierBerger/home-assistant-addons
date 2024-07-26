@@ -29,16 +29,16 @@ _This FAQ is provided by Addon maintener. Do not update it in your mkdocs addons
 
     The installation of this add-on is pretty straightforward and not different in comparison to installing any other Home Assistant add-on.
 
-    1. Click the Home Assistant My button below to open the add-on on your Home
+    * Click the Home Assistant My button below to open the add-on on your Home
     Assistant instance.
 
     [![Open this add-on in your Home Assistant instance.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_vscode&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository)
 
-    1. Click the "Install" button to install the add-on.
-    1. Start the "Studio Code Server" add-on.
-    1. Check the logs of the "Studio Code Server" add-on to see if everything went
+    * Click the "Install" button to install the add-on.
+    * Start the "Studio Code Server" add-on.
+    * Check the logs of the "Studio Code Server" add-on to see if everything went
     well.
-    1. Click the "OPEN WEB UI" button to open Studio Code Server.
+    * Click the "OPEN WEB UI" button to open Studio Code Server.
 
 ??? "Create diagrams with draw.io in VSCode"
 
@@ -59,7 +59,7 @@ _This FAQ is provided by Addon maintener. Do not update it in your mkdocs addons
 
         Edit mkdocs.yml in `/addon_configs/18ac940c_mkdocs/` and remove the folowing lines:
         ```yaml
-        - Mkdocs Addon:
+        - MkDocs Addon:
             - addons/mkdocs/FAQ.md
         ```
 
@@ -67,6 +67,6 @@ _This FAQ is provided by Addon maintener. Do not update it in your mkdocs addons
 
         Edit mkdocs.yml in `/addon_configs/18ac940c_mkdocs/` and modify the first line of the folowing code:
         ```yaml
-        - Mkdocs Addon:
+        - MkDocs Addon:
             - addons/mkdocs/FAQ.md
         ```

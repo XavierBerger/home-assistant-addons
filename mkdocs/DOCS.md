@@ -39,13 +39,9 @@ For further informations and guides see:
 - [Material for MkDocs Reference](https://squidfunk.github.io/mkdocs-material/reference/) : Additionnal features provided by Material for MkDocs.
 - [PlantUML web site](https://plantuml.com) : A tool to create graphs.
 
-### Real time update
+### To go further
 
-A browser viewing [http://homeassistant.local:8000/](http://homeassistant.local:8000/) is showing exact changes updated periodically.
-
-Visual Studio Code Server preview is rendering showing markdown in real time (with some limitation in markdown rendering such as admonition).
-
-Mkdocs integrated to Home Assistant require a refresh to see update.
+For tips and trick using this addon, have a look to [FAQ](rootfs/root/mkdocs/docs/addons/mkdocs/FAQ.md)
 
 ## Changelog & Releases
 

@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file.
 
 _First release._
 
-## 0.0.12 - 2024-07-26
+## 0.0.13 - 2024-07-26
 
 _Development version use to generate image and validate updates_
 _Update FAQ at each update_

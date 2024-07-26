@@ -13,7 +13,7 @@ extra_css:
   - assets/stylesheet.css
 nav:
   - Home: index.md
-  - Mkdocs Addon:
+  - MkDocs Addon:
       - addons/mkdocs/FAQ.md
 markdown_extensions:
   - admonition
