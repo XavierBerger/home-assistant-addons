@@ -13,6 +13,8 @@ extra_css:
   - assets/stylesheet.css
 nav:
   - index.md
+  - Mkdocs Addon:
+      - addons/mkdocs/FAQ.md
 markdown_extensions:
   - admonition
   - pymdownx.details
