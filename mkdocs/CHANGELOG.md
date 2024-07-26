@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## 0.0.15 - 2024-07-26
+## 0.0.16 - 2024-07-26
 
 _Development version use to generate image and validate updates_
 
