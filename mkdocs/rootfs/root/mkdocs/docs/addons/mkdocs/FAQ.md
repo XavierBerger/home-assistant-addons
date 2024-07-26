@@ -4,7 +4,7 @@ _This FAQ is provided by Addon maintener. Do not update it in your mkdocs addons
 
 ## Tips and tricks
 
-??? "Find help to write my documentation"
+???+ "Find help to write my documentation"
 
     The source of the documentation presented by this addon is available in `/addon_configs/18ac940c_mkdocs`.
 

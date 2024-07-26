@@ -10,4 +10,4 @@ echo "Starting MkDocs Server"
 mkdocs serve  -a 0.0.0.0:8000 -f /config/mkdocs.yml &
 sleep 1
 cd /tmp/mkdocs_*
-python -m http.server 9000
+python -m http.server 9000 --protocol HTTP/1.1

@@ -2,9 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## 1.0.0 - [Unreleased]
+## 0.0.14 - 2024-07-26
 
-_First release._
+_Development version use to generate image and validate updates_
+_Serve ingress pages with HTTP/1.1_
 
 ## 0.0.13 - 2024-07-26
 
@@ -15,3 +16,7 @@ _Update FAQ at each update_
 
 _Development version use to generate image and validate updates_
 _Add FAQ : Delete /addon_configs/18ac940c_mkdocs/ and reinstall extension to see FAQ in MkDocs_
+
+## 1.0.0 - [Unreleased]
+
+_First release._
