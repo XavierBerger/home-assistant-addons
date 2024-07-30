@@ -3,9 +3,10 @@
 
 # Home Assistant Add-on: MkDocs
 
-[MkDocs][mkdocs-url] is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
+[MkDocs][mkdocs-url] is a **fast**, **simple** and **downright gorgeous** static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.  
+Start by reading the [introductory tutorial](https://www.mkdocs.org/getting-started/), then check the [User Guide](https://www.mkdocs.org/user-guide/) for more information.
 
-**[For usage of this addon, please, read the full documentation][documentation-url]**
+**[For usage of this addon, please, read the full documentation](https://github.com/XavierBerger/home-assistant-addons/blob/main/mkdocs/DOCS.md)**
 
 ![demo][mkdocs-demo]
 
@@ -18,4 +19,4 @@
 [license-url]: https://github.com/XavierBerger/home-assistant-addons/blob/main/mkdocs/LICENSE.md
 [mkdocs-demo]: https://github.com/XavierBerger/home-assistant-addons/raw/main/mkdocs/images/demo.gif
 [mkdocs-url]: https://www.mkdocs.org
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-stable-green.svg
