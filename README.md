@@ -1,17 +1,12 @@
-# XavierBerger Home Assistant Add-ons
+# Home Assistant Add-ons
 
-My repository with Add-ons for the [Home Assistant](https://www.home-assistant.io/).
+[![designed for Home Assistant](https://img.shields.io/badge/Designed%20fo-Home%20Assistant-blue.svg)](https://www.home-assistant.io/)  
+[![Builder](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/builder.yaml/badge.svg)](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/builder.yaml) [![Lint](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/lint.yaml/badge.svg)](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/lint.yaml)
 
-## Addons
+## [🕮 MkDocs Addon](https://github.com/XavierBerger/home-assistant-addons/blob/main/mkdocs/DOCS.md)
 
-- **MkDocs** - [MkDocs](https://www.mkdocs.org) is a **fast**, **simple** and **downright gorgeous** static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.  
-  Start by reading the [introductory tutorial](https://www.mkdocs.org/getting-started/), then check the [User Guide](https://www.mkdocs.org/user-guide/) for more information.
-
-Further information about the add-ons can be found in their dedicated folders.
-
-## Experimental
-
-Even if officially published addons are tested and works on my Home Assistant Yellow, addons might not be stable at all. Use at your own risk!
+[MkDocs](https://www.mkdocs.org) is a **fast**, **simple** and **downright gorgeous** static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.  
+ Start by reading the [introductory tutorial](https://www.mkdocs.org/getting-started/), then check the [User Guide](https://www.mkdocs.org/user-guide/) for more information.
 
 ## Installation
 
@@ -27,6 +22,28 @@ Then search for any of the add-ons in our addon store (button below) to install 
 
 [![Open your Home Assistant instance and show the add-on store.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
 
-### Licence
+_**Important**_ : _Even if addons of this repository are tested and works on my Home Assistant Yellow, they might not be stable on your installation. **Use at your own risk!**_
 
-The licence of the repository is inherited by the plugins, if not stated differently.
+## Licence
+
+### MIT License
+
+Copyright © 2024 Xavier Berger
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

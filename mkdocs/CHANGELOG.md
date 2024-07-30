@@ -2,26 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## 0.0.18 - 2024-07-30
+## 0.0.19 - 07-30-2024
 
-_Development version use to generate image and validate updates_  
+**Development version use to generate image and validate updates**
 
-
-## 0.0.17 - 2024-07-30
-
-_Development version use to generate image and validate updates_  
-_Serve ingress with nginx instead of python http.server_
-
-## 0.0.13 - 2024-07-26
-
-_Development version use to generate image and validate updates_  
-_Update FAQ at each update_
-
-## 0.0.11 - 2024-07-26
-
-_Development version use to generate image and validate updates_  
-_Add FAQ : Delete /addon_configs/18ac940c_mkdocs/ and reinstall extension to see FAQ in MkDocs_
-
-## 1.0.0 - [Unreleased]
-
-_First release._
+- ➕ Add **mkdocs** `1.6.0`
+- ➕ Add **mkdocs-material** `9.5.29`
+- ➕ Add **mkdocs-material-extensions** `1.3.1`
+- ➕ Add **plantuml-markdown** `3.9.8`
+- ➕ Add **pymdown-extensions** `10.8.1`
+- ➕ Add **Markdown** `3.6`
