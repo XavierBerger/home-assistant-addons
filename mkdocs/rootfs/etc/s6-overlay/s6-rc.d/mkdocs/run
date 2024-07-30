@@ -6,8 +6,17 @@
 # ==============================================================================
 echo "Starting MkDocs Server"
 
+# Start mkdocs server
 . /opt/venv/bin/activate 
-mkdocs serve  -a 0.0.0.0:8000 -f /config/mkdocs.yml &
+mkdocs serve -a 0.0.0.0:8000 -f /config/mkdocs.yml &
+
+# Wait for mkdocs temporary directory is created
 sleep 1
-cd /tmp/mkdocs_*
-python -m http.server 9000 --protocol HTTP/1.1
+
+# Start nginx to serve page
+rm /data/www -fr
+mkdir -p /data/
+ln -s /tmp/mkdocs_* /data/www
+chmod 777 /data/www
+chmod 777 /tmp/mkdocs_*
+nginx -g "daemon off; error_log /dev/stdout debug;"

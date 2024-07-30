@@ -1,21 +1,19 @@
 name: mkdocs
-version: "0.0.16"
+version: "0.0.17"
+slug: mkdocs
 image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
 codenotary: "berger.xavier@gmail.com"
-slug: mkdocs
 description: "Project documentation with Markdown."
 init: false
 arch:
   - aarch64
   - amd64
-startup: services
 ingress: true
-ingress_port: 9000
-ingress_stream: true
 panel_icon: mdi:book-open-variant-outline
 panel_title: MkDocs
 ports:
-  9000/tcp: # Not needed for ingress
   8000/tcp: 8000
+ports_description:
+  8000/tcp: "MkDocs realtime preview"
 map:
   - addon_config:rw

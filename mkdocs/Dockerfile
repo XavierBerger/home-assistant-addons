@@ -2,9 +2,13 @@ ARG BUILD_FROM
 FROM $BUILD_FROM
 
 # Install Operating System requirements for add-on
-RUN apk add --no-cache python3
-RUN apk add --no-cache py3-pip
-
+RUN apk add --no-cache \
+        python3 \
+        py3-pip \
+        nginx \
+    && \
+    mkdir -p /run/nginx
+    
 # Prepare virtual environement for Python
 RUN python3 -m venv /opt/venv
 

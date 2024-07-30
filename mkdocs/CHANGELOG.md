@@ -2,14 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
-## 0.0.16 - 2024-07-26
-
-_Development version use to generate image and validate updates_
-
-## 0.0.15 - 2024-07-26
+## 0.0.17 - 2024-07-26
 
 _Development version use to generate image and validate updates_  
-_Serve ingress pages with HTTP/1.1_
+_Serve ingress with nginx instead of python http.server_
 
 ## 0.0.13 - 2024-07-26
 
