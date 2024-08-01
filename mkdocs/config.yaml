@@ -1,5 +1,5 @@
 name: mkdocs
-version: "0.0.20"
+version: "0.0.21"
 slug: mkdocs
 image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
 codenotary: "berger.xavier@gmail.com"
