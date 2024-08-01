@@ -7,10 +7,6 @@
 
 Further information about the add-ons can be found in their dedicated folders.
 
-## Experimental
-
-Even if officially published addons are tested and works on my Home Assistant Yellow, addons might not be stable at all. Use at your own risk!
-
 ## Installation
 
 To install any of the add-ons offered in this repository, you must first add its repository URL to your Home Assistant instance. To do so, click the following button
@@ -44,7 +40,8 @@ For further informations and guides see:
 
 ### To go further
 
-For tips and trick using this addon, have a look to [FAQ](rootfs/root/mkdocs/docs/addons/mkdocs/FAQ.md)
+For tips and trick using this addon, have a look to [Help/FAQ](rootfs/root/mkdocs/docs/addons/mkdocs/help.md).  
+_Note: Rendering is designed to be displayed in add-on itself and is not clean in github._
 
 ## Changelog & Releases
 
@@ -57,6 +54,10 @@ based on the following:
 - `MAJOR`: Incompatible or major changes.
 - `MINOR`: Backwards-compatible new features and enhancements.
 - `PATCH`: Backwards-compatible bugfixes and package updates.
+
+## Experimental
+
+Even if officially published addons are tested and works on my Home Assistant Yellow, addons might not be stable at all. Use at your own risk!
 
 ## License
 
