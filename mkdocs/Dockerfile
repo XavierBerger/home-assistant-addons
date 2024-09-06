@@ -15,5 +15,8 @@ RUN python3 -m venv /opt/venv
 # Install Python requirements for add-on
 COPY requirements.txt .
 RUN . /opt/venv/bin/activate && pip3 install --no-cache-dir -r requirements.txt
+RUN . /opt/venv/bin/activate && pip3 install --no-cache-dir mkdocs-macros-plugin
+RUN . /opt/venv/bin/activate && pip3 install --no-cache-dir mkdocs-meta-plugin
+RUN . /opt/venv/bin/activate && pip3 install --no-cache-dir mkdocs-glightbox
 
 COPY rootfs /
