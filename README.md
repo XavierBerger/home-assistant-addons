@@ -2,7 +2,7 @@
 
 [![designed for Home Assistant](https://img.shields.io/badge/Designed%20for-Home%20Assistant-blue.svg)](https://www.home-assistant.io/)  
 [![Builder](https://github.com/spencermamer/home-assistant-notes-addons/actions/workflows/builder.yaml/badge.svg)](https://github.com/spencermamer/home-assistant-notes-addons/actions/workflows/builder.yaml)
-## [🕮 MkDocs Addon](https://github.com/XavierBerger/home-assistant-addons/blob/main/mkdocs/DOCS.md)
+## [🕮 MkDocs Addon](https://github.com/spencermamer/home-assistant-notes-addons/blob/main/mkdocs/DOCS.md)
 
 [MkDocs](https://www.mkdocs.org) is a **fast**, **simple** and **downright gorgeous** static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.  
  Start by reading the [introductory tutorial](https://www.mkdocs.org/getting-started/), then check the [User Guide](https://www.mkdocs.org/user-guide/) for more information.
@@ -11,11 +11,11 @@
 
 To install any of the add-ons offered in this repository, you must first add its repository URL to your Home Assistant instance. To do so, click the following button
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FXavierBerger%2Fhome-assistant-addons)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fspencermamer%2Fhome-assistant-notes-addons)
 
 or manually add the the following repository URL in the Home Assistant add-on store:
 
-`https://github.com/XavierBerger/home-assistant-addons`
+`https://github.com/spencermamer/home-assistant-notes-addons`
 
 Then search for any of the add-ons in our addon store (button below) to install them.
 
@@ -24,10 +24,13 @@ Then search for any of the add-ons in our addon store (button below) to install 
 _**Important**_ : _Even if addons of this repository are tested and works on my Home Assistant Yellow, they might not be stable on your installation. **Use at your own risk!**_
 
 ## Licence
+### Recognition
+
+This is originally based on the addon created by [Xavier](https://github.com/XavierBerger/home-assistant-addons), without which this couldn't have been started. 
 
 ### MIT License
 
-Copyright © 2024 Xavier Berger
+Copyright © 2024 Spencer Mamer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
