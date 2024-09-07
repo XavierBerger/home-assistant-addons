@@ -1,7 +1,7 @@
 # Home Assistant Add-ons
 
 [![designed for Home Assistant](https://img.shields.io/badge/Designed%20for-Home%20Assistant-blue.svg)](https://www.home-assistant.io/)  
-[![Builder](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/builder.yaml/badge.svg)](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/builder.yaml) [![Lint](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/lint.yaml/badge.svg)](https://github.com/XavierBerger/home-assistant-addons/actions/workflows/lint.yaml)
+[![Builder](https://github.com/spencermamer/home-assistant-addons/actions/workflows/builder.yaml/badge.svg)](https://github.com/spencermamer/home-assistant-addons/actions/workflows/builder.yaml) [![Lint](https://github.com/spencermamer/home-assistant-addons/actions/workflows/lint.yaml/badge.svg)](https://github.com/spencermamer/home-assistant-addons/actions/workflows/lint.yaml)
 
 ## [🕮 MkDocs Addon](https://github.com/XavierBerger/home-assistant-addons/blob/main/mkdocs/DOCS.md)
 
