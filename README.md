@@ -1,8 +1,7 @@
 # Home Assistant Add-ons
 
 [![designed for Home Assistant](https://img.shields.io/badge/Designed%20for-Home%20Assistant-blue.svg)](https://www.home-assistant.io/)  
-[![Builder](https://github.com/spencermamer/home-assistant-addons/actions/workflows/builder.yaml/badge.svg)](https://github.com/spencermamer/home-assistant-addons/actions/workflows/builder.yaml) [![Lint](https://github.com/spencermamer/home-assistant-addons/actions/workflows/lint.yaml/badge.svg)](https://github.com/spencermamer/home-assistant-addons/actions/workflows/lint.yaml)
-
+[![Builder](https://github.com/spencermamer/home-assistant-notes-addons/actions/workflows/builder.yaml/badge.svg)](https://github.com/spencermamer/home-assistant-notes-addons/actions/workflows/builder.yaml)
 ## [🕮 MkDocs Addon](https://github.com/XavierBerger/home-assistant-addons/blob/main/mkdocs/DOCS.md)
 
 [MkDocs](https://www.mkdocs.org) is a **fast**, **simple** and **downright gorgeous** static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.  
