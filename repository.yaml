@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Xavier Berger Home Assistant add-on repository
-url: "https://github.com/XavierBerger/home-assistant-addons"
-maintainer: Xavier Berger <XavierBerger@users.noreply.github.com>
+name: Spencer Mamer's note-taking Home Assistant add-on repository
+url: "https://github.com/spencermamer/home-assistant-notes-addons"
+maintainer: Spencer Mamer <spencermamer@users.noreply.github.com>
