@@ -1,52 +1,56 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 """
-This script is updating requirements.txt with the latest version of modules listed into requirements.txt
+This script is showing the latest version of packages listed into requirements.txt
 """
-import subprocess
-import importlib.metadata
+import requests
 
-def remove_versions(requirements_file):
-    """Remove version of packages in requirements_file."""
-    with open(requirements_file, 'r', encoding="utf-8") as file:
-        requirements = file.readlines()
+REQUIREMENTS_FILE = "requirements.txt"
 
-    with open(requirements_file, 'w', encoding="utf-8") as file:
-        for requirement in requirements:
-            if '==' in requirement:
-                package_name = requirement.split('==')[0]
-                file.write(package_name.strip() + '\n')
-            else:
-                file.write(requirement)
+PYPI_URL = "https://pypi.org/pypi/{}/json"
 
-def upgrade_packages(requirements_file):
-    """Upgrade packages with pip"""
-    subprocess.run(['pip', 'install', '--upgrade', '-r', requirements_file], check=True)
 
-def update_requirements(requirements_file):
-    """Update requirements_file with installed versions."""
-    with open(requirements_file, 'r', encoding="utf-8") as file:
-        requirements = file.readlines()
-
-    updated_requirements = []
-    for requirement in requirements:
-        requirement = requirement.strip()
-        if requirement and not requirement.startswith('#'):
-            package_name = requirement.split('==')[0]
-            try:
-                installed_version = importlib.metadata.version(package_name)
-                updated_requirements.append(f"{package_name}=={installed_version}\n")
-            except importlib.metadata.PackageNotFoundError:
-                print(f"Le package {package_name} n'est pas installé.")
+def get_latest_version(package_name):
+    """Get latest version of package from Pypi"""
+    try:
+        response = requests.get(PYPI_URL.format(package_name), timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            return data["info"]["version"]
         else:
-            updated_requirements.append(requirement + '\n')
+            print(f"Can't find package {package_name} on PyPI.")
+            return None
+    except Exception as e:
+        print(f"Error while getting version of {package_name}: {e}")
+        return None
 
-    with open(requirements_file, 'w', encoding="utf-8") as file:
-        file.writelines(updated_requirements)
+
+def read_requirements_file(file_path):
+    """Get packages from requirements.txt"""
+    with open(file_path, "r", encoding="utf-8") as f:
+        packages = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+    return packages
 
 
+def update_requirements_with_latest_versions():
+    """Display package version in requirement.txt format"""
+    packages = read_requirements_file(REQUIREMENTS_FILE)
+    updated_packages = []
 
-if __name__ == '__main__':
-    REQUIREMENTS_FILE = 'requirements.txt'
-    remove_versions(REQUIREMENTS_FILE)
-    upgrade_packages(REQUIREMENTS_FILE)
-    update_requirements(REQUIREMENTS_FILE)
+    packages.sort()
+    for package in packages:
+        if "==" in package:
+            package_name = package.split("==")[0]
+        else:
+            package_name = package
+
+        version = get_latest_version(package_name)
+        if version:
+            updated_packages.append(f"{package_name}=={version}")
+
+    for package in updated_packages:
+        print(package)
+
+
+if __name__ == "__main__":
+    update_requirements_with_latest_versions()
+
