@@ -28,8 +28,21 @@ _**Important**_ : _Even if addons of this repository are tested and works on my 
 
 This is originally based on the addon created by [Xavier](https://github.com/XavierBerger/home-assistant-addons), without which this couldn't have been started. 
 
+### License warning
+
+When you copy a code which is distributed under MIT License and modify it, you can add your copyright in addition to the copyright of any previous authors.
+
+To respect the license, you should never remove existing copyrights as stated into the sentence :
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+Could you, then, add my copyright back (in addition to yours) in your copy of my code?
+
+By the way, the recognition, even if I appreciate it, is no more mandatory :-).
+
+
 ### MIT License
 
+Copyright © 2024 Xavier Berger
 Copyright © 2024 Spencer Mamer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
