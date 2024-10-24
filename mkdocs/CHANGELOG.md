@@ -1,6 +1,11 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## 1.1.2 - 10-24-2024
+
+- ⬆️ Bump **mkdocs-macros-plugin** `1.2.0` ➜ `1.3.6`
+- ⬆️ Bump **mkdocs-material** `9.5.38` ➜ `9.5.42`
+- ⬆️ Bump **pymdown-extensions** `10.10.2` ➜ `10.11.2`
 
 ## 1.1.1 - 09-27-2024
 
