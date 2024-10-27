@@ -1,8 +1,8 @@
 name: mkdocs
 version: "1.1.2"
 slug: mkdocs
-image: "ghcr.io/xavierberger/{arch}-addon-mkdocs"
-codenotary: "berger.xavier@gmail.com"
+image: "ghcr.io/spencermamer/home-assistant-notes-addons/mkdocs"
+codenotary: "spencermamer@gmail.com"
 description: "Project documentation with Markdown."
 init: false
 arch:
@@ -10,7 +10,7 @@ arch:
   - amd64
 ingress: true
 panel_icon: mdi:book-open-variant-outline
-panel_title: MkDocs
+panel_title: HomeLab Documentation
 ports:
   8000/tcp: 8000
 ports_description:
