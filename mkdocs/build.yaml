@@ -6,8 +6,7 @@ build_from:
   # armv7: "ghcr.io/home-assistant/armv7-base:3.19"
   # i386: "ghcr.io/home-assistant/i386-base:3.19"
 labels:
-  org.opencontainers.image.title: "Home Assistant Add-on: MkDocs"
+  org.opencontainers.image.title: "Home Assistant Add-on: MkDocs Lab Documentation"
   org.opencontainers.image.description: "Create documentation web site in markdown"
-  org.opencontainers.image.source: "https://github.com/iXavierBerger/home-assistant-addons"
+  org.opencontainers.image.source: "https://github.com/spencermamer/home-assistant-notes-addons"
   org.opencontainers.image.licenses: "MIT"
-
