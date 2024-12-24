@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.4 - 12-24-2024
+
+- ⬆️ Bump mkdocs-material from `9.5.45` ➜ `9.5.49`
+- ⬆️ Bump jinja2 from `3.1.4` ➜ `3.1.5`
+- ⬆️ Bump mkdocs-awesome-pages-plugin from `2.9.3` ➜ `2.10.1`
+- ⬆️ Bump click from `8.1.7` ➜ `8.1.8`
+
 ## 1.1.3 - 11-25-2024
 
 - ⬆️ Bump actions/checkout from `4.1.7` ➜ `4.2.1`
