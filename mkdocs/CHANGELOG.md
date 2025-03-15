@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.6 - 03-15-2025
+
+- ⬆️ Bump **actions/checkout** `4.1.7` ➜ `4.2.1`
+- ⬆️ Bump **frenck/action-addon-linter** `2.16` ➜ `2.17`
+- ⬆️ Bump **mkdocs-macros-plugin** `1.2.0` ➜ `1.3.6`
+- ⬆️ Bump **mkdocs-material** `9.5.38` ➜ `9.5.42`
+- ⬆️ Bump **pymdown-extensions** `10.10.2` ➜ `10.11.2`
+
 ## 1.1.5 - 01-30-2025
 
 - ⬆️ Bump **mkdocs-material** `9.5.49` ➜ `9.5.50`
